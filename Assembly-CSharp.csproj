@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0d81dafa-28ab-4594-8307-6f871abf2891}</ProjectGuid>
+    <ProjectGuid>{9e6b1eae-126f-cdfb-326d-68c531e7819b}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,288 +46,27 @@
      <Compile Include="Assets/config/SingleModeConfig.cs" />
      <Compile Include="Assets/ParseUtil.cs" />
      <Compile Include="Assets/InitMapEditor/InitMapEditorScript.cs" />
+     <Compile Include="Assets/SkillEditor/SkillEditorScript.cs" />
      <Compile Include="Assets/LevelSelect/LevelSelectorScript.cs" />
      <Compile Include="Assets/TaskEditor/ConditionEditScript.cs" />
      <Compile Include="Assets/TemplateEditor/DropDownOptionWithData.cs" />
      <Compile Include="Assets/TaskEditor/TaskEditorScript.cs" />
+     <Compile Include="Assets/SkillEditor/DropDownOptionSkillData.cs" />
      <Compile Include="Assets/InitMapEditor/TetrisCellData.cs" />
      <Compile Include="Assets/GenerateEditor/ShapeCells.cs" />
      <Compile Include="Assets/GenerateEditor/SingleTetrisShapes.cs" />
      <Compile Include="Assets/TemplateEditor/TemplateEditorScript.cs" />
      <Compile Include="Assets/GenerateEditor/GenerateBlockEditor.cs" />
-     <Compile Include="Assets/SkillEditor/SkillEditorScript.cs" />
-     <Compile Include="Assets/SkillEditor/DropDownOptionSkillData.cs" />
      <Folder Include="Assets" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.subsystems@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/guihelp.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.jsonserialize@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.test-framework@1.1.31" />
-     <None Include="Library/PackageCache/com.unity.modules.screencapture@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.modules.cloth@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.imgui@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/plastic-gui.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.es.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.ai@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/differences.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/commontypes.zh-Hans.txt" />
-     <Folder Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.3" />
-     <Folder Include="Library/PackageCache/com.unity.modules.animation@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.ugui@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.xr@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.es.txt" />
-     <None Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/basecommands.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/basecommands.ko.txt" />
-     <Folder Include="Library/PackageCache/com.unity.ide.rider@3.0.16/Rider" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/semantic.zh-Hant.txt" />
-     <Folder Include="Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3" />
-     <Folder Include="Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/Tests" />
-     <None Include="Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/clientcommon.es.txt" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources" />
-     <Folder Include="Library/PackageCache/com.unity.2d.common@6.0.6/Tests" />
-     <None Include="Library/PackageCache/com.unity.modules.assetbundle@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/guihelp.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.imgui@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Graphics" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/ValidationExceptions.json" />
-     <None Include="Library/PackageCache/com.unity.modules.tilemap@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/xdiff.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/configurehelper.es.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.assetbundle@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.burst@1.6.6/Tests" />
      <Folder Include="Assets/TemplateEditor" />
-     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/package.json" />
      <Folder Include="Assets/Scenes" />
-     <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/configurehelper.en.txt" />
-     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8" />
-     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.16/ValidationConfig.json" />
-     <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/basecommands.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm-help.es.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.mathematics@1.2.6/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM" />
-     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Tests" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/differences.zh-Hant.txt" />
-     <Folder Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT" />
      <Folder Include="Assets/LevelSelect" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/plastic-gui.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/basecommands.ja.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.screencapture@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/package.json" />
-     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/ValidationExceptions.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/xdiff.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/xdiff.ko.txt" />
-     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/clientcommon.ja.txt" />
-     <Folder Include="Library/PackageCache/com.unity.2d.path@5.0.2" />
-     <Folder Include="Library/PackageCache/com.unity.modules.cloth@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/basecommands.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData.json" />
-     <None Include="Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/guihelp.en.txt" />
-     <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/differences.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/configurehelper.ja.txt" />
      <Folder Include="Assets/config" />
-     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/IK" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/semantic.en.txt" />
-     <Folder Include="Library/PackageCache/com.unity.burst@1.6.6" />
-     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.16/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/workspaceserver.ko.txt" />
-     <Folder Include="Library/PackageCache/com.unity.feature.2d@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.imageconversion@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/plastic-gui.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.imageconversion@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.2d.common@6.0.6" />
-     <Folder Include="Library/PackageCache/com.unity.services.core@1.6.0/Editor" />
-     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/ValidationExceptions.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm.en.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/commontypes.en.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/commontypes.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.unityanalytics@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.subsystems@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.ide.rider@3.0.16/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.video@1.0.0/package.json" />
      <Folder Include="Assets/SkillEditor" />
-     <None Include="Library/PackageCache/com.unity.test-framework@1.1.31/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.unityanalytics@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.physics@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts" />
-     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/basecommands.en.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.vr@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/workspaceserver.es.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.physics2d@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm-help.en.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.particlesystem@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/binmergetool.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.en.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/workspaceserver.zh-Hans.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.wind@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/binmergetool.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/plastic-gui.en.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.physics2d@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/differences.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.vr@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/binmergetool.en.txt" />
-     <None Include="Library/PackageCache/com.unity.services.core@1.6.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.uielements@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/ValidationExceptions.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.particlesystem@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/configurehelper.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm-help.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.2d.common@6.0.6/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/semantic.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/workspaceserver.en.txt" />
-     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.16/ValidationExceptions.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm-help.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/link.xml" />
-     <None Include="Library/PackageCache/com.unity.modules.wind@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/clientcommon.zh-Hant.txt" />
-     <Folder Include="Library/PackageCache/com.unity.ugui@1.0.0/Tests" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/xdiff.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.umbra@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Textures" />
-     <Folder Include="Library/PackageCache/com.unity.2d.sprite@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.tilemap@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/guihelp.zh-Hans.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.ui@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.services.core@1.6.0/Runtime" />
-     <Folder Include="Library/PackageCache/com.unity.mathematics@1.2.6" />
-     <Folder Include="Library/PackageCache/com.unity.2d.psdimporter@6.0.6" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/FileSystemWatcherLicense.txt" />
-     <None Include="Library/PackageCache/com.unity.2d.path@5.0.2/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.3/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Gizmos" />
-     <None Include="Library/PackageCache/com.unity.modules.audio@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm-help.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm-help.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/clientcommon.en.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.physics@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/binmergetool.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/commontypes.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/differences.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.modules.vehicles@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/plastic-gui.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.en.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/binmergetool.ja.txt" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6" />
-     <None Include="Library/PackageCache/com.unity.modules.uielementsnative@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.ide.rider@3.0.16" />
-     <None Include="Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0/package.json" />
      <Folder Include="Assets/TaskEditor" />
-     <Folder Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Tests" />
-     <None Include="Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.feature.2d@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.3/ValidationExceptions.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/binmergetool.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_SDF_SSD.cginc" />
-     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/ValidationConfig.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.ja.txt" />
-     <Folder Include="Library/PackageCache/com.unity.ide.vscode@1.2.5" />
-     <Folder Include="Library/PackageCache/com.unity.modules.vehicles@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.modules.xr@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Tests" />
-     <Folder Include="Library/PackageCache/com.unity.services.core@1.6.0" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_Properties.cginc" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_SDF Internal Editor.shader" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/xdiff.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/configurehelper.zh-Hans.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.umbra@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/clientcommon.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/semantic.ja.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib" />
-     <None Include="Library/PackageCache/com.unity.modules.director@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.ide.vscode@1.2.5/ValidationExceptions.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.jsonserialize@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/ValidationConfig.json" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders" />
-     <Folder Include="Library/PackageCache/com.unity.modules.director@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.audio@1.0.0" />
      <Folder Include="Assets/InitMapEditor" />
-     <None Include="Library/PackageCache/com.unity.modules.terrain@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/commontypes.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.16" />
-     <None Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/commontypes.ja.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.video@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.modules.ai@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/configurehelper.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData_Assets.json" />
-     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor" />
-     <Folder Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.2d.spriteshape@7.0.6/package.json" />
      <Folder Include="Assets/GenerateEditor" />
-     <None Include="Library/PackageCache/com.unity.mathematics@1.2.6/ValidationExceptions.json" />
-     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Package Resources" />
-     <Folder Include="Library/PackageCache/com.unity.modules.terrain@1.0.0" />
-     <Folder Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.3/Tests" />
-     <Folder Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests" />
-     <None Include="Library/PackageCache/com.unity.modules.animation@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2" />
-     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.modules.uielementsnative@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/guihelp.es.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/differences.en.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/workspaceserver.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.ko.txt" />
-     <Folder Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/clientcommon.ko.txt" />
-     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.xml" />
-     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.2d.psdimporter@6.0.6/package.json" />
-     <None Include="Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.modules.uielements@1.0.0/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/plastic-gui.ja.txt" />
-     <None Include="Library/PackageCache/com.unity.burst@1.6.6/package.json" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.en.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/workspaceserver.zh-Hant.txt" />
-     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/cm.zh-Hant.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/xdiff.en.txt" />
-     <Folder Include="Library/PackageCache/com.unity.ugui@1.0.0" />
      <Folder Include="Assets/Resources" />
-     <Folder Include="Library/PackageCache/com.unity.2d.spriteshape@7.0.6" />
-     <None Include="Library/PackageCache/com.unity.modules.ui@1.0.0/package.json" />
-     <Folder Include="Library/PackageCache/com.unity.2d.spriteshape@7.0.6/Tests" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/semantic.zh-Hans.txt" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.ko.txt" />
-     <Folder Include="Library/PackageCache/com.unity.2d.psdimporter@6.0.6/Tests" />
-     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/guihelp.ko.txt" />
-     <None Include="Library/PackageCache/com.unity.ide.vscode@1.2.5/package.json" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.16f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -578,25 +317,25 @@
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.16f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Unsafe">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Mdb">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Pdb">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Rocks">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>/Users/zhengkaikai/unity/TetrisEditor/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.16f1c1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -964,184 +703,140 @@
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.16f1c1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="PsdPlugin">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Path.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Runtime">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Analytics">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Environments">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Runtime">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Editor">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>/Users/liuqingfeng/Documents/github_workspace/tetris-editor/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{d2769af9-96aa-f7d0-3d4d-e063e4e48ac2}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{9a3fae30-9642-34a2-37d7-d801d7d7d258}</Project>
-      <Name>Unity.2D.Tilemap.Extras</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{871af4bf-d40d-564d-e57a-2e3c6eb96805}</Project>
-      <Name>Unity.2D.Animation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{dac74afe-e49c-74fc-6870-314f53e4a32f}</Project>
-      <Name>Unity.InternalAPIEngineBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{3b896fec-a74b-c49c-6708-ae805d0aa311}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{2caac3be-38d0-3e9b-4a98-bdf496929117}</Project>
-      <Name>Unity.2D.PixelPerfect</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{7668f07e-2d96-10bd-5d4c-7d44d35a439a}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{2e520180-c669-aeb2-631e-8989ec2871a6}</Project>
-      <Name>PsdPlugin</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{ac5b3156-87ea-a4e6-ebfb-e4666fe15948}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{79656718-ba8d-9632-2d9d-990012bb0a19}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{b6165393-157c-c392-64e1-5590ea35d93a}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{55e9d122-8de6-cdcc-fe26-1e62ba426069}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5f625c6a-92fb-fc13-1a7c-7145c1917619}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{f1036df6-6467-5e4b-565f-31e144927c2b}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{93d5517a-db92-413c-640c-7d4c79cb3590}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
-      <Project>{44dab8d2-82c6-3154-2a51-0516f9145561}</Project>
-      <Name>Unity.2D.IK.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{e3318894-b4bc-a076-056a-670362813bd1}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{0ea5dad0-afdb-9ed9-b3b0-0365620a9a1b}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{32c0f9b5-2a30-3827-bf46-8548eebd7ed5}</Project>
-      <Name>Unity.2D.Path.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{48a4a192-0e53-758c-7d0b-3f54f3c70403}</Project>
-      <Name>Unity.2D.Psdimporter.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{4d3e46fa-f702-2d93-3f16-a43976758ea6}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{7db93acf-beb0-32d7-979b-b416a85dd129}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{51307a89-9517-3fa8-9e4d-ba50affe1afe}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{16f7d05c-44ce-c950-0a23-fba9cbc1998a}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{b324bc9b-1e41-0097-fd02-20b74822b8c0}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{a235a9e9-27e9-52c0-a478-dd9aabf61680}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{db63a416-89fd-3bbc-dc7e-3b670ebffc41}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{1ec25c1f-9980-086e-4800-34e8cedd82ab}</Project>
-      <Name>Unity.Services.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{1fcfa6e9-86fd-f1cd-bae7-009160873771}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{53a39349-6cf0-16dd-534e-3c9602f19081}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
-      <Project>{7322e9c7-f26c-1cc0-464e-d56a0906e509}</Project>
-      <Name>Unity.2D.IK.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{41529c81-7ede-13f2-cc82-52f77ee373d3}</Project>
-      <Name>Unity.Services.Core.Analytics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{989c4b28-0ea4-f9f0-6ce3-c6dbdd66afc3}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{c5276fbe-6e2a-cb34-7836-aa24bebffdba}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{5bf92ea6-a0c4-fc01-c567-921b187eba20}</Project>
-      <Name>Unity.Services.Core.Environments</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{762af24e-9b30-cc9d-d5da-ad469d215e48}</Project>
-      <Name>Unity.2D.Animation.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
-      <Project>{c4ef71b6-9037-9994-c53c-48b75ebff516}</Project>
-      <Name>Unity.2D.PixelPerfect.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{0e25f9bc-abcf-cb5f-a707-80b80c39496b}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{f847e637-9996-8be0-577b-8cddadcb4504}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{171ceed8-9089-195a-cdc3-483a6563ba7e}</Project>
-      <Name>Unity.2D.Common.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{ae2d73f1-b6df-1e2d-5381-423a8d9d7fff}</Project>
-      <Name>Unity.2D.SpriteShape.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{2dfff053-8791-d861-05b5-f6dcd13ecfc2}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{530fb427-a5cc-8165-d5c1-fc792bc4b092}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{34c6cc2d-4bbf-bbbd-649a-2bf86e6afaf5}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

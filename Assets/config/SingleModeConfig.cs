@@ -115,6 +115,12 @@ namespace DefaultNamespace
     {
         public int id;
         public string name;
+        public int clear_rows;
+        public int left_rows;
+        public int right_rows;
+        public int fireworks_count;
+        public int fireworks_width;
+        public int fireworks_height;
     }
 
     public class SingleModeConfig

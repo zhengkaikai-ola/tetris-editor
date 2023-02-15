@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78fa9e0-76fd-4802-a3a0-944041a94fbd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.tetris-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tetris-editor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelSelect/LevelSelectorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelSelect/LevelSelectorScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelEditor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelEditor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UIEventCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UIEventCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkillEditor/SkillEditorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillEditor/SkillEditorScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/config/SingleModeConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/config/SingleModeConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676447897525</updated>
-      <workItem from="1676447902619" duration="182000" />
+      <workItem from="1676447902619" duration="2130000" />
     </task>
     <servers />
   </component>
