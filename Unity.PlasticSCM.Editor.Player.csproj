@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6454e7aa-a570-5a12-f166-9772b8845a2b}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/Bin/Debug</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/DownloadPlasticExeWindow.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI/Message" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/WaitingSignInPanel.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/TabView.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/ProgressControlsForDialogs.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/WaitingSignInPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/SignInWithEmailPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/PlasticWindow/PlasticWindow.light.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/SignInSignUp.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/SSOSignUpPanel.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI/Avatar" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/WebApi" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Gluon/UpdateReport" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/SignInWithEmailPanel.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/AssetsUtils" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/AssetMenu" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Gluon" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/Welcome" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/CreateOrganizationPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/OrganizationPanel.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Inspector" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/PlasticWindow" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/Branch" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/CreateOrganizationPanel.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/AssetsUtils/Processor" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/AssetMenu/Dialogs" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/Branch/Dialogs" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/TeamEditionConfigurationWindow.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Images" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Configuration/CloudEdition/Welcome" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI/Tree" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/OrganizationPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/SignInPanel.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/CreatedOrganizationPanel.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Developer" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/CreateWorkspace" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/Diff" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/PlasticWindow/StatusBar.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/IncomingChanges/Developer" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/IncomingChanges/Gluon" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/SignInPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/TabView.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/Changesets" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Tool" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/PendingChanges/Changelists" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/AssetOverlays" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Configuration/TeamEdition" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/PendingChanges/PendingMergeLinks" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/CreatedOrganizationPanel.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/CloudProjectDownloader" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/Diff/Dialogs" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/History" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/PlasticWindow" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/AssetOverlays/Cache" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Configuration/CloudEdition" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/IncomingChanges/Developer/DirectoryConflicts" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/TeamEditionConfigurationWindow.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Developer/UpdateReport" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Configuration" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/DownloadPlasticExeWindow.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/PlasticWindow/PlasticWindow.dark.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/PendingChanges" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/SSOSignUpPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/PlasticWindow/PlasticWindow.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Styles/PlasticWindow" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/IncomingChanges" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI/UIElements" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/SceneView" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/PendingChanges/Dialogs" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI/StatusBar" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Help" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/UI/Progress" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/Assets/Layouts/ProgressControlsForDialogs.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/PlasticSCM/CollabMigration" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

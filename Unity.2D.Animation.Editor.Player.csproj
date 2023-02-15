@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4a4cbbc8-2662-f3f7-564a-e26b6c0b0c5f}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.2D.Animation.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/Bin/Debug</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/SpriteMeshData" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/MeshToolbar.uxml" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/WeightInspectorIMGUIPanelStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SpriteLib" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/BoneToolbar.uxml" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/BoneReparentWindow.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/WeightsGenerator" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/SpriteBitmask.shader" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SpriteSkin" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Triangulation" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/InfluenceWindowStyle.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/MeshToolbarStyle.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/PastePanelStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib/x86_64" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/BoneInspectorPanelStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib/x86_64/BoundedBiharmonicWeightsModule.bundle" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/LayoutOverlay/Manipulators" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/PoseToolbarStyle.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/LayoutOverlay/ScrollableToolbar.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/GenerateWeightsPanelStyle.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/ToolbarStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/VisibilityTool" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib/x86_64/BoundedBiharmonicWeightsModule.bundle/Contents" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/RigToolbarStyle.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/WeightToolbarStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Cache" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/LayoutOverlay/LayoutOverlay.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/Icons/Light" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/BoneToolbarStyle.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/GenerateGeometryPanel.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Selectors" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/CharacterModeTool" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/GenerateWeightsPanel.uxml" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/RigToolbar.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/ClipperLib" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/SkeletonTool" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/SkinningCache" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SpriteLib/SpriteLibrarySourceAsset" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/LayoutOverlay" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/LayoutOverlay" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/PoseToolbar.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/Icons/Selected" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/Icons/Dark" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib/x86_64/BoundedBiharmonicWeightsModule.bundle/Contents/_CodeSignature" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/WeightPainterPanelStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/Icons" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Selection" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/SpriteOutline.shader" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/OutlineGenerator" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/GenerateGeometryPanelStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SpriteOutlineRenderer" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/SkinningSerializer" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/MeshPreviewTool" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/BoneInspectorPanel.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Undo" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/PastePanel.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/IMGUI" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/BoneReparentStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/Icons/Light" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/VisibilityToolbar.uxml" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/VisibilityTool.uss" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/LayoutOverlay/LayoutOverlayStyle.uss" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/SpriteEdgeOutline.shader" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/VisibilityToolWindow.uxml" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/WeightToolbar.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/UI" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib/x64" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/InfluenceWindow.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/Icons/Selected" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/WeightPainterPanel.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/Icons/Dark" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Unity.2D.Animation.Editor.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/MeshTool" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/SpriteBoneInfluence" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/SkinningModule-GUITextureClip.shader" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/SkinningModule/Lib/x86_64/BoundedBiharmonicWeightsModule.bundle/Contents/MacOS" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.9/Editor/Assets/SkinningModule/Icons" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

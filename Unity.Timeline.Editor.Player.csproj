@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6775ae48-403c-fd60-2d3c-32b827cab976}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.Timeline.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/Bin/Debug</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Audio" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Images/DarkSkin" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Animation" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Attributes" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Activation" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Unity.Timeline.Editor.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/res" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/res/Timeline_LightSkin.txt" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Extensions/dark.uss" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/res/Timeline_DarkSkin.txt" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/Drawers" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Recording" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Images/Shared" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities/Scopes" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/Snapping" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/Drawers/Layers" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/State" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors/CurvesOwner" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Extensions" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Trim" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors/ClipInspector" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/Modes" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Analytics" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Utils" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Localization" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Utilities" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Actions/Menus" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Images/Icons" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Window/ViewModel" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Extensions/light.uss" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Items" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Cursors" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/ControlTrack" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Images/LightSkin" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Playables" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Extensions" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Signals/TreeView" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Undo" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/AddDelete" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Signals" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/inspectors" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/TrackGui" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview/ItemGui" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/CustomEditors" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Extensions/common.uss" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Move" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Manipulators/Sequence" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/Properties" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/StyleSheets/Images" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.4/Editor/treeview" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

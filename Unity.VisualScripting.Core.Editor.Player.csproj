@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7719edee-7beb-fb13-394c-cf5f2c227374}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.VisualScripting.Core.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/Bin/Debug</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Unity" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Analysis" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/BackupWindow" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Properties" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Canvases" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Reflection" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Exceptions" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.xml" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/AboutWindow" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/ConfigurationPanel" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Description" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Widgets" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/DragAndDrop" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugins" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Migrations" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/ReorderableList/ElementAdderMenu" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqCore" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Icons" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Acknowledgements" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Widgets/Groups" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/GenerateDocumentationWindow" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/SerializedProperties" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Variables" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/ReorderableList" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Assignment" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/IconMap" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Debugging" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Reflection" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Products" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Root" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Fonts" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Product" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/ReorderableList/Internal" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Serialization" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Documentation" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Meta" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Descriptors" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Decorators" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Utilities" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Annotations" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Context" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Changelogs" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Platforms" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Primitives" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Fuzzy" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Other" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Analytics" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Dropdowns" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Inspection/Special" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/ResourceProviders" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Threading" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Widgets/Nodes" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/SQLite" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/Assemblies" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Licenses" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Interface/Colors" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/UpdateWizard" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/GeneratePropertyProvidersWindow" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Graph" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Windows/Sidebars" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqGraphs" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.xml" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

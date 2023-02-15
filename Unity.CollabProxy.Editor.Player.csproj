@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{df3b92e8-9871-438f-6204-2d75a95e5f99}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/Bin/Debug</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Models/Api" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/ChangesTabPageView.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Common" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Models/Providers" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/Analytics" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/ProgressView.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/HistoryEntryComponent.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Views/Adapters" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/StartPageView.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Components/Menus" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/FloatingMenuItem.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/HistoryEntryComponent.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/ErrorPageView.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/ChangesTabPageView.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/SettingsProviderVisuals/UXML/CollabProjectSettingsEnabled.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/ListNotice.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/StartPageView.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/AlertBox.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/SettingsProviderVisuals/USS/ServicesProjectSettingsCommon.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/FloatingMenu.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/SettingsProviderVisuals/UXML" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/UserInterface" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/BetterTextField.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/AlertBox.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/TabView.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/TopBar.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Models" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Views/Adapters/ListAdapters" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/FloatingDialogue.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Models/Structures" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/styles.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/TopBar.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/Paginator.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Components" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Models/Enums" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/ProgressView.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/SearchBar.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/ChangesGroupHeader.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Properties" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/SettingsProviderVisuals/USS" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/MainPageView.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/SettingsProviderVisuals" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/Paginator.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/IconTextButton.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/ToggleableChangeListElement.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Presenters" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/IconButton.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Views" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Settings" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/TextButton.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Components/ChangeListElements" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/HistoryTabPageView.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/BaseChangeListElement.uss" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/EditorGameService/SettingsProviderVisuals/UXML/CollabProjectSettingsDisabled.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/ListNotice.uxml" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/main-window.uxml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Utilities" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Styles/ChangesGroupHeader.uss" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Icons" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Editor/Collaborate/Assets/Layouts/MainPageView.uxml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

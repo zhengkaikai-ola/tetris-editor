@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{12e9a873-ad49-8949-8a71-fb2d45683122}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.VisualScripting.Flow.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/Bin/Debug</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Variables/Obsolete" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Analytics" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Invocations" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Unity.VisualScripting.Flow.Editor.asmdef" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Nesting" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Properties" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Connections" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Ports" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Plugin/Changelogs" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Description" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Variables" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Options" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Units" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Plugin/Migrations" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Codebase" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Events" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Time" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Acknowledgements" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Plugin" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Flow/Framework/Control" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
