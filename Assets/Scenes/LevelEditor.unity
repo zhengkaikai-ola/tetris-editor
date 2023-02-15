@@ -11967,7 +11967,7 @@ MonoBehaviour:
   GenerateBlockEditorScript: {fileID: 604259662}
   TemplateEditorScript: {fileID: 1976142186}
   LevelSelectorScript: {fileID: 1050170938}
-  SkillEditorScript: {fileID: 0}
+  SkillEditorScript: {fileID: 77398975}
 --- !u!1 &1342511098
 GameObject:
   m_ObjectHideFlags: 0
