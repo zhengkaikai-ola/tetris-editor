@@ -55,6 +55,8 @@
      <Compile Include="Assets/GenerateEditor/SingleTetrisShapes.cs" />
      <Compile Include="Assets/TemplateEditor/TemplateEditorScript.cs" />
      <Compile Include="Assets/GenerateEditor/GenerateBlockEditor.cs" />
+     <Compile Include="Assets/SkillEditor/SkillEditorScript.cs" />
+     <Compile Include="Assets/SkillEditor/DropDownOptionSkillData.cs" />
      <Folder Include="Assets" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/mergetool.ja.txt" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/images.zh-Hans.txt" />
@@ -161,6 +163,7 @@
      <None Include="Library/PackageCache/com.unity.ide.rider@3.0.16/package.json" />
      <None Include="Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/localization/i3.zh-Hans.txt" />
      <None Include="Library/PackageCache/com.unity.modules.video@1.0.0/package.json" />
+     <Folder Include="Assets/SkillEditor" />
      <None Include="Library/PackageCache/com.unity.test-framework@1.1.31/package.json" />
      <Folder Include="Library/PackageCache/com.unity.modules.unityanalytics@1.0.0" />
      <Folder Include="Library/PackageCache/com.unity.modules.physics@1.0.0" />
