@@ -8,6 +8,7 @@ public class UIEventCenter : MonoBehaviour
     public GenerateBlockEditor GenerateBlockEditorScript;
     public TemplateEditorScript TemplateEditorScript;
     public LevelSelectorScript LevelSelectorScript;
+    public SkillEditorScript SkillEditorScript;
 
 
     // Start is called before the first frame update

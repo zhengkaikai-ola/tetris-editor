@@ -111,9 +111,16 @@ namespace DefaultNamespace
         public int FullStarGoldCnt = 0;
     }
 
+    public class SkillConfig
+    {
+        public int id;
+        public string name;
+    }
+
     public class SingleModeConfig
     {
         public Dictionary<int, BlockDesc> TemplateDescBind = new Dictionary<int, BlockDesc>();
         public Dictionary<int, TetrisLevelConfig> LevelConfigs = new Dictionary<int, TetrisLevelConfig>();
+        public Dictionary<int, SkillConfig> SkillConfigs = new Dictionary<int, SkillConfig>();
     }
 }

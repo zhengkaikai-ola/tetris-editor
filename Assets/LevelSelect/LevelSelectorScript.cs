@@ -77,6 +77,7 @@ public class LevelSelectorScript : MonoBehaviour
             UIEventCenter.TemplateEditorScript.LoadConfig(levelConfig);
             UIEventCenter.GenerateBlockEditorScript.LoadConfig(levelConfig);
             UIEventCenter.TaskEditorScript.LoadConfig(levelConfig);
+            UIEventCenter.SkillEditorScript.LoadConfig(levelConfig);
         }
     }
 
@@ -99,18 +100,28 @@ public class LevelSelectorScript : MonoBehaviour
                 UIEventCenter.TaskEditorScript.transform.gameObject.SetActive(false);
                 UIEventCenter.GenerateBlockEditorScript.transform.gameObject.SetActive(false);
                 UIEventCenter.TemplateEditorScript.transform.gameObject.SetActive(true);
+                UIEventCenter.SkillEditorScript.transform.gameObject.SetActive(false);
                 return;
             case 1:
                 UIEventCenter.InitMapEditorScript.transform.gameObject.SetActive(false);
                 UIEventCenter.TaskEditorScript.transform.gameObject.SetActive(true);
                 UIEventCenter.GenerateBlockEditorScript.transform.gameObject.SetActive(false);
-                UIEventCenter.TemplateEditorScript.transform.gameObject.SetActive(true);
+                UIEventCenter.TemplateEditorScript.transform.gameObject.SetActive(false);
+                UIEventCenter.SkillEditorScript.transform.gameObject.SetActive(false);
                 return;
             case 2:
                 UIEventCenter.InitMapEditorScript.transform.gameObject.SetActive(false);
                 UIEventCenter.TaskEditorScript.transform.gameObject.SetActive(false);
                 UIEventCenter.GenerateBlockEditorScript.transform.gameObject.SetActive(true);
                 UIEventCenter.TemplateEditorScript.transform.gameObject.SetActive(true);
+                UIEventCenter.SkillEditorScript.transform.gameObject.SetActive(false);
+                return;
+            case 3:
+                UIEventCenter.InitMapEditorScript.transform.gameObject.SetActive(false);
+                UIEventCenter.TaskEditorScript.transform.gameObject.SetActive(false);
+                UIEventCenter.GenerateBlockEditorScript.transform.gameObject.SetActive(false);
+                UIEventCenter.TemplateEditorScript.transform.gameObject.SetActive(false);
+                UIEventCenter.SkillEditorScript.transform.gameObject.SetActive(true);
                 return;
         }
     }
