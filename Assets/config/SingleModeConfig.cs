@@ -109,6 +109,7 @@ namespace DefaultNamespace
         public Dictionary<int, GenerateBlockConfig> GenerateConfigs = new Dictionary<int, GenerateBlockConfig>();
         public Dictionary<int, Dictionary<int, int>> InitConfigs = new Dictionary<int, Dictionary<int, int>>();
         public int FullStarGoldCnt = 0;
+        public Dictionary<int, int> SkillAwardCnt = new();
     }
 
     public class SkillConfig

@@ -11,6 +11,7 @@ public class TaskEditorScript : MonoBehaviour
     public ConditionEditScript PassCondition;
     public ConditionEditScript StarCondition;
     public InputField FullGoldInput;
+    public InputField SkillAwardInput;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class TaskEditorScript : MonoBehaviour
         LoadConditionConfig(PassCondition, currentLevelConfig.PassCondition);
         LoadConditionConfig(StarCondition, currentLevelConfig.StarCondition);
         FullGoldInput.text = $"{currentLevelConfig.FullStarGoldCnt}";
+        SkillAwardInput.text = DicToString(currentLevelConfig.SkillAwardCnt);
     }
 
 
@@ -53,6 +55,7 @@ public class TaskEditorScript : MonoBehaviour
         SaveConditionConfig(PassCondition, currentLevelConfig.PassCondition);
         SaveConditionConfig(StarCondition, currentLevelConfig.StarCondition);
         currentLevelConfig.FullStarGoldCnt = ParseUtil.Parse(FullGoldInput.text);
+        currentLevelConfig.SkillAwardCnt = StringToDic(SkillAwardInput.text);
     }
 
 

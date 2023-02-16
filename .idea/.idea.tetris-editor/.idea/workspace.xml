@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e78fa9e0-76fd-4802-a3a0-944041a94fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tetris-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tetris-editor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelEditor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelEditor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkillEditor/SkillEditorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillEditor/SkillEditorScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TaskEditor/TaskEditorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TaskEditor/TaskEditorScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/config/SingleModeConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/config/SingleModeConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/build/TetrisEditor.app/Contents/MacOS/tetris-editor" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/build/TetrisEditor.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -60,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676447897525</updated>
-      <workItem from="1676447902619" duration="2130000" />
+      <workItem from="1676447902619" duration="2914000" />
+      <workItem from="1676519547404" duration="781000" />
     </task>
     <servers />
   </component>
