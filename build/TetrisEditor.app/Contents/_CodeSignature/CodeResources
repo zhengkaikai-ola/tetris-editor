@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<data>
-		C3z+I/PvxOaffVhcTD4d/Sg6+UM=
+		0a0PM8S3XZHG6JF/mQNQBmTV3N0=
 		</data>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
 		<data>
@@ -534,15 +534,15 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		TicpvXhvuaGaKG1XIIfhLVCR+Kw=
+		aYlnCqmxsotYG5ixHuXihwH7GnU=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
-		dT+v8qeruidz4sLql5QCaTQutO8=
+		oIcZ3+ggrF/MITBGr85O8JULNOI=
 		</data>
 		<key>Resources/Data/level0</key>
 		<data>
-		E/3p5soJd3pW/JyWf+uB5dXExBU=
+		5QTh3ny8YwoQsJDEYmEm8D5P56A=
 		</data>
 		<key>Resources/Data/resources.assets</key>
 		<data>
@@ -741,16 +741,16 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			E2fPeXtPeoYG1gkMt/lByjoBQmM=
+			nc7+bYUfXl/SCnngxDWO8Ss9aEc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1367cf797b4f7a8606d6090cb7f941ca3a014263" or cdhash H"82b224c3a56469ef039b975bfe19a01e6aaf26d7"</string>
+			<string>cdhash H"9dcefe6d851f5e5fd20a79e0c4358ef12b3d6847" or cdhash H"b2c676bc4e09689b61fe16a7891bd4004afc0c64"</string>
 		</dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ezC37R7OuJdrgpavuTR8lch+rcm078LOTaOvgqTekh4=
+			DPumKiSnzjuJD+j3UHCHK/LRr54lzr8Eez0fbpTL77Q=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Mono.Security.dll</key>
@@ -1674,21 +1674,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0QDtZNX/eSsQJVdQv4SucHBbjRztdCtt5SOEb7xmFk4=
+			5wPmn1MmRLu9/fvaT8TXxRCpiu8yjwwqb6DFBxD7Mk4=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/HRTzx6BIfORTBfjPImI26yL9dTOASv3UpFx/T16Mo=
+			S+XNdDXABABFIHnIpyDnhNTKcVFGz88B7XaojIZ4XPs=
 			</data>
 		</dict>
 		<key>Resources/Data/level0</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HL2zgBYnqRyGISLXjqAIqpyDzcjA5yOPOqJ5a7WPwqk=
+			iOMwh2ep9nwqM8Vghjgj/Cp5xDrqvOG2co0Z1/db5MY=
 			</data>
 		</dict>
 		<key>Resources/Data/resources.assets</key>
