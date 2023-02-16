@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -122,6 +123,8 @@ namespace DefaultNamespace
         public int fireworks_count;
         public int fireworks_width;
         public int fireworks_height;
+        public int SkillPrice;
+        public int[] SkillUseScene;
     }
 
     public class SingleModeConfig

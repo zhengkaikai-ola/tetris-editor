@@ -2459,7 +2459,12 @@
       "right_rows": 0,
       "fireworks_count": 3,
       "fireworks_width": 2,
-      "fireworks_height": 2
+      "fireworks_height": 2,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "102": {
       "id": 102,
@@ -2469,7 +2474,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "103": {
       "id": 103,
@@ -2479,7 +2489,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "201": {
       "id": 201,
@@ -2489,7 +2504,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "202": {
       "id": 202,
@@ -2499,7 +2519,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "203": {
       "id": 203,
@@ -2509,7 +2534,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "204": {
       "id": 204,
@@ -2519,7 +2549,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "301": {
       "id": 301,
@@ -2529,7 +2564,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "302": {
       "id": 302,
@@ -2539,7 +2579,12 @@
       "right_rows": 3,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     },
     "303": {
       "id": 303,
@@ -2549,7 +2594,12 @@
       "right_rows": 0,
       "fireworks_count": 0,
       "fireworks_width": 0,
-      "fireworks_height": 0
+      "fireworks_height": 0,
+      "SkillPrice": 50,
+      "SkillUseScene": [
+        4,
+        5
+      ]
     }
   }
 }

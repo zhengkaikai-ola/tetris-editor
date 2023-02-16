@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -17,6 +18,8 @@ public class SkillEditorScript : MonoBehaviour
     public InputField fireworkCountText;
     public InputField fireworkWidthText;
     public InputField fireworkHeightText;
+    public InputField SkillPrice;
+    public InputField SkillUseScene;
     public Dictionary<int, SkillConfig> Templates = new();
     public SkillConfig CurrentTemplate;
     private int currentTemplateIndex = 0;
@@ -83,6 +86,8 @@ public class SkillEditorScript : MonoBehaviour
         fireworkCountText.text = blockDesc.fireworks_count + "";
         fireworkWidthText.text = blockDesc.fireworks_width + "";
         fireworkHeightText.text = blockDesc.fireworks_height + "";
+        SkillPrice.text = blockDesc.SkillPrice + "";
+        SkillUseScene.text = string.Join(",", blockDesc.SkillUseScene) + "";
     }
     
     public void ConfirmModifyEvent()
@@ -110,6 +115,17 @@ public class SkillEditorScript : MonoBehaviour
         blockDesc.fireworks_count = ParseUtil.Parse(fireworkCountText.text);
         blockDesc.fireworks_width = ParseUtil.Parse(fireworkWidthText.text);
         blockDesc.fireworks_height = ParseUtil.Parse(fireworkHeightText.text);
+        blockDesc.SkillPrice = ParseUtil.Parse(SkillPrice.text);
+        if (SkillUseScene.text != null && SkillUseScene.text != "")
+        {
+            var data = SkillUseScene.text.Split(new string[] { ","}, StringSplitOptions.None);
+            var useSceneData = new int[data.Length];
+            for (int i = 0; i < data.Length; i++)
+            {
+                useSceneData[i] = ParseUtil.Parse(data[i]);
+            }
+            blockDesc.SkillUseScene = useSceneData;
+        }
     }
 
     public void SaveConfig(TetrisLevelConfig tetrisLevelConfig)
