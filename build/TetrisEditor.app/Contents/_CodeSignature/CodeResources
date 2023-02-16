@@ -534,7 +534,7 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		aYlnCqmxsotYG5ixHuXihwH7GnU=
+		Z5MXmJYH5fwaJcWliksm5AozkPw=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
@@ -558,7 +558,7 @@
 		</data>
 		<key>Resources/DefaultPreferences.plist</key>
 		<data>
-		VNbnYUGjCc5cH+QpbqXpbK3KbT8=
+		328gBco4OE4lwDcEUI4+p+dVOLg=
 		</data>
 		<key>Resources/MainMenu.nib/designable.nib</key>
 		<data>
@@ -741,10 +741,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			nc7+bYUfXl/SCnngxDWO8Ss9aEc=
+			Nw6fo0lFxqjF2TPIT/gO30MHKxE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"9dcefe6d851f5e5fd20a79e0c4358ef12b3d6847" or cdhash H"b2c676bc4e09689b61fe16a7891bd4004afc0c64"</string>
+			<string>cdhash H"370e9fa34945c6a8c5d933c84ff80edf43072b11" or cdhash H"8d48f10c566e0a48c1f90e19e874ae4732a60735"</string>
 		</dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<dict>
@@ -1674,7 +1674,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5wPmn1MmRLu9/fvaT8TXxRCpiu8yjwwqb6DFBxD7Mk4=
+			9K43T9mqjcOX1psh/jVDg1D2SgsXtMwwz6SNZm4GLIM=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
@@ -1716,7 +1716,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W9oOJGpWGJUa6Ru37jQt0rSm6JGOOXZkQxPBaqSD0mI=
+			3tHJtvdHAvgSq7TYC8CFKP2EJuF4CKBM3gFbTTS0mPM=
 			</data>
 		</dict>
 		<key>Resources/MainMenu.nib/designable.nib</key>
