@@ -52,12 +52,37 @@ public class InitMapEditorScript : MonoBehaviour
 
     public void OnCellClick(TetrisCellData cellData)
     {
+        if (UIEventCenter.TemplateEditorScript.MoveMode)
+        {
+            var x = cellData.X;
+            var y = cellData.Y;
+            //尝试下移一格
+            var ok = this.CellGroupScript.CellMap.TryGetValue(y + 1, out var cs);
+            if (ok)
+            {
+                var existOld = cs.TryGetValue(x, out var oldCell);
+                if (existOld)
+                {
+                    if (oldCell.BlockType != BlockType.None)
+                    {
+                        Debug.Log("下移失败，已有数据");
+                        return;
+                    }
+
+                    oldCell.SetBlockData(cellData.typeId, cellData.BlockType);
+                    cellData.SetBlockData(0, BlockType.None);
+                }
+            }
+            return;
+        }
+
         var currentTemplate = UIEventCenter.TemplateEditorScript.CurrentTemplate;
         if (currentTemplate == null)
         {
             Debug.Log("当前没有选中模板");
             return;
         }
+
         // if (currentTemplate.block_type == BlockType.Bot)
         // {
         //     for (var deltax = 0; deltax < currentTemplate.arg0; deltax++)
@@ -78,7 +103,7 @@ public class InitMapEditorScript : MonoBehaviour
         // }
         // else
         // {
-            cellData.SetBlockData(currentTemplate.template_id, currentTemplate.block_type);
+        cellData.SetBlockData(currentTemplate.template_id, currentTemplate.block_type);
         // }
     }
 
@@ -126,8 +151,6 @@ public class InitMapEditorScript : MonoBehaviour
         {
             foreach (var tetrisCellData in lineDatas.Values)
             {
- 
-
                 if (tetrisCellData.BlockType != BlockType.None)
                 {
                     var lmap = levelConfig.InitConfigs.GetValueOrDefault(tetrisCellData.Y, new Dictionary<int, int>());

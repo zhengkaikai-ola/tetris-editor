@@ -20,6 +20,7 @@ public class TemplateEditorScript : MonoBehaviour
     public UIEventCenter UIEventCenter;
     public Dictionary<int, BlockDesc> Templates = new();
     public BlockDesc CurrentTemplate;
+    public bool MoveMode = false;
     private int currentTemplateIndex = 0;
 
     // Start is called before the first frame update
